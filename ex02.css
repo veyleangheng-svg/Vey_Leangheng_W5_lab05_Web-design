@@ -1,0 +1,41 @@
+
+.topside{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+.logo{
+    grid-column: 1/3;
+}
+
+.allItem{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+
+    width: 25px;
+    height: 25px;
+    align-self: self-end;
+
+}
+.item1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media (max-width:768px){
+    .item1{
+        display: none;
+    }
+}
+@media (min-width:768px){
+    .icon{
+        display: none;
+    }
+
+}
+
+
