@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PART _ 02</title>
+    <link rel="stylesheet" href="part02.css">
+</head>
+<body>
+
+
+    <div class="box">
+        <div class="card">
+            <h1 style="color: black;" >Creat account</h1>
+
+            <div class="name">
+                <div class="firstname">
+                    <h2>First name* <br></h2>
+                    <input type="text" placeholder="enter your first name"><br>
+                </div>
+                
+                <div class="lastname">
+                    <h2>Last name <br></h2>
+                    <input type="text" placeholder="enter your last name" ><br>
+                </div>
+              
+            </div>
+
+            <div class="email">
+                <h2>Email* <br></h2>
+                <input type="text" placeholder="enter your email"><br>
+            </div>
+
+            <div class="pw">
+                <div class="password">
+                    <h2>Password* <br></h2>
+                    <input type="text" placeholder="enter your password"><br>
+                </div>
+        
+                <div class="cpassword">
+                    <h2>Confirm Password* <br></h2>
+                    <input type="text" placeholder="enter your confirm password"><br>
+                </div>
+            </div>
+
+            <div class="Gender">
+                <div class="option">
+                    <h2>Gender <br></h2>
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female
+                    <br>    
+                </div>
+                <div class="hobbies">
+                    <h2>Hobbies <br></h2>
+                    <input type="radio" name="hobbies" value="Music">Music
+                    <input type="radio" name="hobbies" value="Sport">Sport
+                    <input type="radio" name="hobbies" value="Travel">Travel
+                    <input type="radio" name="hobbies" value="Movies">Movies
+                </div><br>
+            </div>
+
+            <div class="income">
+                <h2>Source of income</h2>
+                <select id="source">
+                    <option>Employed</option>
+                    <option>Self-employed</option>
+                    <option>Student</option>
+                    <option>Unemployed</option>
+                </select>
+                
+
+                <h2>Income <br></h2>
+                <div class="range-row">
+                    <input type="range" id="income" min="0" max="100" value="20">
+                    <output id="income-value" for="income">20K</output>
+                    
+                </div>
+            </div><br>
+
+            <div class="file">
+                <div class="choose-file">
+                    <h2>Upload profile picture</h2>
+                     <input type="file" id="photo">
+                     <br>
+                </div>
+
+                <div class="age">
+                    <h2>Age</h2>
+                    <input type="number" id="age" value="18" min="0">
+                    <br>
+                </div>
+            </div><br>
+
+            <div class="bio">
+                <h2>Bio <br></h2>
+                <textarea style="color: black;"></textarea>
+            </div>
+            <h1>
+                <button style="color: rgb(255, 255, 255);">Create</button>
+            </h1>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(43, 144, 110);
+}
+.box{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 30px 16px;   
+    background: rgb(57, 133, 128);
+}
+
+.card h1{
+    background-color: rgb(185, 180, 180);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.card{
+  width: 100%;
+  max-width: 740px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.name , .pw, .Gender ,.file{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+.firstname , .lastname , .password ,.cpassword{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+input:focus {
+    background: #e6f6fd;
+}
+input{
+    border-radius: 5px solid gray;
+}
+.email {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+button{
+    background:  rgb(43, 144, 110);
+    width: 20%;
+    height: 5vh;
+}
+
+button:hover{
+    background: rgb(8, 134, 61);
+}
